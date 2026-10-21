@@ -1,0 +1,10 @@
+[
+  {
+    "_id": "guest_demo_user_id",
+    "email": "demo@finrule.io",
+    "name": "Finance Analyst (Demo)",
+    "hashed_password": "$2b$12$P.QitYl0v8QvP3SqJm0q7.L9vJIURC6y6ubghXUQCWPwkCp0mfDkG",
+    "created_at": "2026-10-15T06:03:44.116828",
+    "updated_at": "2026-10-15T06:03:44.116828"
+  }
+]

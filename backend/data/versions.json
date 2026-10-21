@@ -1,0 +1,82 @@
+[
+  {
+    "model_id": "55908272-6c6c-4555-b8d4-9e5de0ed842c",
+    "source_code": "// FinRule: SaaS Recurring Revenue & Churn Projection\nmodel \"SaaS Growth Engine\" {\n  starting_mrr = 75000\n  monthly_growth = 0.055\n  churn = 0.02\n  cogs_rate = 0.22\n  opex = 38000\n\n  for month in 1 to 24 {\n    mrr = starting_mrr * (1 + monthly_growth - churn) ^ month\n    revenue = mrr\n    cogs = revenue * cogs_rate\n    gross_profit = revenue - cogs\n    net_profit = gross_profit - opex\n\n    output month, mrr, revenue, cogs, gross_profit, net_profit\n  }\n}\n\nscenario \"Aggressive Growth\" {\n  monthly_growth = 0.09\n  churn = 0.015\n  opex = 45000\n}\n\nscenario \"Recession Stress Test\" {\n  monthly_growth = 0.02\n  churn = 0.045\n  opex = 32000\n}\n",
+    "commit_message": "Initial template version",
+    "created_at": "2026-10-15T06:03:53.423700",
+    "_id": "45bf1001-5957-498b-82c6-460966bad81e",
+    "updated_at": "2026-10-15T06:03:53.423700"
+  },
+  {
+    "model_id": "28f22178-7cac-4d13-b3cb-7aa237c71b67",
+    "source_code": "// FinRule: Startup Runway & Cash Burn Forecast\nmodel \"Seed Runway Planner\" {\n  starting_cash = 1200000\n  monthly_burn_base = 45000\n  hiring_expansion_rate = 3500\n  revenue_starting = 8000\n  revenue_mom_growth = 0.08\n\n  cash_balance = starting_cash\n  current_revenue = revenue_starting\n\n  for month in 1 to 18 {\n    current_revenue = current_revenue * (1 + revenue_mom_growth)\n    total_expenses = monthly_burn_base + (hiring_expansion_rate * month)\n    net_burn = total_expenses - current_revenue\n    cash_balance = cash_balance - net_burn\n    runway_months_remaining = cash_balance / net_burn\n\n    output month, current_revenue, total_expenses, net_burn, cash_balance, runway_months_remaining\n  }\n}\n\nscenario \"Conservative Lean Burn\" {\n  hiring_expansion_rate = 1500\n  monthly_burn_base = 38000\n}\n\nscenario \"Fast Growth Hiring\" {\n  hiring_expansion_rate = 6000\n  revenue_mom_growth = 0.12\n}\n",
+    "commit_message": "Cloned from template: Startup Cash Runway & Burn Rate Forecast",
+    "_id": "a79e8263-3a08-49b1-8b8a-7244c0e06761",
+    "created_at": "2026-10-16T05:11:55.151505",
+    "updated_at": "2026-10-16T05:11:55.151505"
+  },
+  {
+    "model_id": "ecc9dec4-dda2-4659-9a6e-c5cd081a08b0",
+    "source_code": "// FinRule: Startup Runway & Cash Burn Forecast\nmodel \"Seed Runway Planner\" {\n  starting_cash = 1200000\n  monthly_burn_base = 45000\n  hiring_expansion_rate = 3500\n  revenue_starting = 8000\n  revenue_mom_growth = 0.08\n\n  cash_balance = starting_cash\n  current_revenue = revenue_starting\n\n  for month in 1 to 18 {\n    current_revenue = current_revenue * (1 + revenue_mom_growth)\n    total_expenses = monthly_burn_base + (hiring_expansion_rate * month)\n    net_burn = total_expenses - current_revenue\n    cash_balance = cash_balance - net_burn\n    runway_months_remaining = cash_balance / net_burn\n\n    output month, current_revenue, total_expenses, net_burn, cash_balance, runway_months_remaining\n  }\n}\n\nscenario \"Conservative Lean Burn\" {\n  hiring_expansion_rate = 1500\n  monthly_burn_base = 38000\n}\n\nscenario \"Fast Growth Hiring\" {\n  hiring_expansion_rate = 6000\n  revenue_mom_growth = 0.12\n}\n",
+    "commit_message": "Cloned from template: Startup Cash Runway & Burn Rate Forecast",
+    "_id": "fe4be1c3-fb7f-4de5-86aa-6f2919d7c8af",
+    "created_at": "2026-10-16T05:14:55.273562",
+    "updated_at": "2026-10-16T05:14:55.273562"
+  },
+  {
+    "model_id": "20c8dff8-77e7-4236-97cb-ee028c87394e",
+    "source_code": "// FinRule: Loan Eligibility\nmodel \"Loan Eligibility\" {\n  starting_balance = 100000\n  monthly_rate = 0.04\n\n  for month in 1 to 12 {\n    balance = starting_balance * (1 + monthly_rate) ^ month\n    output month, balance\n  }\n}\n",
+    "commit_message": "Initial creation",
+    "created_at": "2026-10-16T06:57:23.592865",
+    "_id": "53b46d89-af56-4693-99b9-e238506f0d8b",
+    "updated_at": "2026-10-16T06:57:23.592865"
+  },
+  {
+    "model_id": "7dbf59bc-ab02-469f-8f93-0009a6bf543b",
+    "source_code": "// FinRule: EMI Problem\nmodel \"EMI Problem\" {\n  starting_balance = 100000\n  monthly_rate = 0.04\n\n  for month in 1 to 12 {\n    balance = starting_balance * (1 + monthly_rate) ^ month\n    output month, balance\n  }\n}\n",
+    "commit_message": "Initial creation",
+    "created_at": "2026-10-16T06:58:29.176701",
+    "_id": "701b68c1-007c-44a5-88ce-d945c28700c2",
+    "updated_at": "2026-10-16T06:58:29.176701"
+  },
+  {
+    "model_id": "20c8dff8-77e7-4236-97cb-ee028c87394e",
+    "source_code": "// FinRule: Retail Bank Home Loan Underwriting & Stress Test\nmodel \"Home Loan DTI Stress Test\" {\n  loan_amount = 4000000\n  annual_rate = 0.085\n  tenure_years = 20\n  total_months = tenure_years * 12\n  monthly_rate = annual_rate / 12\n\n  customer_monthly_income = 120000\n  max_allowed_dti = 0.45\n\n  // Calculate fixed monthly EMI using built-in PMT function\n  monthly_emi = PMT(monthly_rate, total_months, loan_amount)\n  dti_ratio = monthly_emi / customer_monthly_income\n\n  remaining_balance = loan_amount\n\n  for month in 1 to 24 {\n    interest_fee = remaining_balance * monthly_rate\n    principal_paid = monthly_emi - interest_fee\n    remaining_balance = remaining_balance - principal_paid\n\n    output month, monthly_emi, principal_paid, interest_fee, remaining_balance\n  }\n}\n\n// Scenario 1: RBI Rate Hike (Stress Test)\nscenario \"RBI Rate Hike (+2%)\" {\n  annual_rate = 0.105\n}\n\n// Scenario 2: Customer Gets 15% Salary Increment\nscenario \"Salary Promotion (+15%)\" {\n  customer_monthly_income = 138000\n}\n",
+    "commit_message": "Manual code save",
+    "created_at": "2026-10-16T06:57:23.592865",
+    "_id": "26e79b04-22a6-48e1-813b-7dbd0b159fdd",
+    "updated_at": "2026-10-16T06:57:23.592865"
+  },
+  {
+    "model_id": "20c8dff8-77e7-4236-97cb-ee028c87394e",
+    "source_code": "// FinRule: Retail Bank Home Loan Underwriting & Stress Test\nmodel \"Home Loan DTI Stress Test\" {\n  loan_amount = 4000000\n  annual_rate = 0.085\n  tenure_years = 20\n  total_months = tenure_years * 12\n  monthly_rate = annual_rate / 12\n\n  customer_monthly_income = 120000\n  max_allowed_dti = 0.45\n\n  // Calculate fixed monthly EMI using built-in PMT function\n  monthly_emi = PMT(monthly_rate, total_months, loan_amount)\n  dti_ratio = monthly_emi / customer_monthly_income\n\n  remaining_balance = loan_amount\n\n  for month in 1 to 24 {\n    interest_fee = remaining_balance * monthly_rate\n    principal_paid = monthly_emi - interest_fee\n    remaining_balance = remaining_balance - principal_paid\n\n    output month, monthly_emi, principal_paid, interest_fee, remaining_balance\n  }\n}\n\n// Scenario 1: RBI Rate Hike (Stress Test)\nscenario \"RBI Rate Hike (+2%)\" {\n  annual_rate = 0.105\n}\n\n// Scenario 2: Customer Gets 15% Salary Increment\nscenario \"Salary Promotion (+15%)\" {\n  customer_monthly_income = 138000\n}\n",
+    "commit_message": "Manual code save",
+    "created_at": "2026-10-16T06:58:39.749091",
+    "_id": "543ddf4b-49ff-41c4-aced-99db915967e4",
+    "updated_at": "2026-10-16T06:58:39.749091"
+  },
+  {
+    "model_id": "20c8dff8-77e7-4236-97cb-ee028c87394e",
+    "source_code": "// FinRule: Retail Bank Home Loan Underwriting & Stress Test\nmodel \"Home Loan DTI Stress Test\" {\n  loan_amount = 4000000\n  annual_rate = 0.085\n  tenure_years = 20\n  total_months = tenure_years * 12\n  monthly_rate = annual_rate / 12\n\n  customer_monthly_income = 120000\n  max_allowed_dti = 0.45\n\n  // Calculate fixed monthly EMI using built-in PMT function\n  monthly_emi = PMT(monthly_rate, total_months, loan_amount)\n  dti_ratio = monthly_emi / customer_monthly_income\n\n  remaining_balance = loan_amount\n\n  for month in 1 to 24 {\n    interest_fee = remaining_balance * monthly_rate\n    principal_paid = monthly_emi - interest_fee\n    remaining_balance = remaining_balance - principal_paid\n\n    output month, monthly_emi, principal_paid, interest_fee, remaining_balance\n  }\n}\n\n// Scenario 1: RBI Rate Hike (Stress Test)\nscenario \"RBI Rate Hike (+2%)\" {\n  annual_rate = 0.105\n}\n\n// Scenario 2: Customer Gets 15% Salary Increment\nscenario \"Salary Promotion (+15%)\" {\n  customer_monthly_income = 138000\n}\n",
+    "commit_message": "Manual code save",
+    "created_at": "2026-10-16T06:58:41.867890",
+    "_id": "157b7b39-3a66-4b51-a18e-9b8b13f04d9c",
+    "updated_at": "2026-10-16T06:58:41.867890"
+  },
+  {
+    "model_id": "20c8dff8-77e7-4236-97cb-ee028c87394e",
+    "source_code": "// FinRule: Retail Bank Home Loan Underwriting & Stress Test\nmodel \"Home Loan DTI Stress Test\" {\n  loan_amount = 4000000\n  annual_rate = 0.085\n  tenure_years = 20\n  total_months = tenure_years * 12\n  monthly_rate = annual_rate / 12\n\n  customer_monthly_income = 120000\n  max_allowed_dti = 0.45\n\n  // Calculate fixed monthly EMI using built-in PMT function\n  monthly_emi = PMT(monthly_rate, total_months, loan_amount)\n  dti_ratio = monthly_emi / customer_monthly_income\n\n  remaining_balance = loan_amount\n\n  for month in 1 to 24 {\n    interest_fee = remaining_balance * monthly_rate\n    principal_paid = monthly_emi - interest_fee\n    remaining_balance = remaining_balance - principal_paid\n\n    output month, monthly_emi, principal_paid, interest_fee, remaining_balance\n  }\n}\n\n// Scenario 1: RBI Rate Hike (Stress Test)\nscenario \"RBI Rate Hike (+2%)\" {\n  annual_rate = 0.105\n}\n\n// Scenario 2: Customer Gets 15% Salary Increment\nscenario \"Salary Promotion (+15%)\" {\n  customer_monthly_income = 138000\n}\n",
+    "commit_message": "Manual code save",
+    "created_at": "2026-10-16T06:58:42.427343",
+    "_id": "9d7d49c5-f705-4b0e-9a00-efae64914c14",
+    "updated_at": "2026-10-16T06:58:42.427343"
+  },
+  {
+    "model_id": "55908272-6c6c-4555-b8d4-9e5de0ed842c",
+    "source_code": "// FinRule: SaaS Recurring Revenue & Churn Projection\nmodel \"SaaS Growth Engine\" {\n  starting_mrr = 75000\n  monthly_growth = 0.055\n  churn = 0.02\n  cogs_rate = 0.22\n  opex = 38000\n\n  for month in 1 to 24 {\n    mrr = starting_mrr * (1 + monthly_growth - churn) ^ month\n    revenue = mrr\n    cogs = revenue * cogs_rate\n    gross_profit = revenue - cogs\n    net_profit = gross_profit - opex\n\n    output month, mrr, revenue, cogs, gross_profit, net_profit\n  }\n}\n\nscenario \"Aggressive Growth\" {\n  monthly_growth = 0.09\n  churn = 0.015\n  opex = 45000\n}\n\nscenario \"Recession Stress Test\" {\n  monthly_growth = 0.02\n  churn = 0.045\n  opex = 32000\n}\n",
+    "commit_message": "Auto-save on model switch",
+    "created_at": "2026-10-15T06:03:53.423700",
+    "_id": "f8a9efaf-2d30-4ffe-b11a-eb63cf072106",
+    "updated_at": "2026-10-15T06:03:53.423700"
+  }
+]

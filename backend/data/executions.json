@@ -1,0 +1,1595 @@
+[
+  {
+    "user_id": "guest_demo_user_id",
+    "model_id": "adhoc",
+    "scenario_name": "Base Model",
+    "success": true,
+    "timings": {
+      "lexer_ms": 1.403,
+      "parser_ms": 1.015,
+      "semantic_ms": 0.126,
+      "ir_ms": 0.152,
+      "execution_ms": 5.535,
+      "total_ms": 8.602
+    },
+    "row_count": 24,
+    "columns": [
+      "month",
+      "mrr",
+      "revenue",
+      "cogs",
+      "gross_profit",
+      "net_profit"
+    ],
+    "error": null,
+    "_id": "70ea1921-bf83-464d-b38d-5f4346e0dd36",
+    "created_at": "2026-10-15T06:04:08.490557",
+    "updated_at": "2026-10-15T06:04:08.490557"
+  },
+  {
+    "user_id": "guest_demo_user_id",
+    "model_id": "55908272-6c6c-4555-b8d4-9e5de0ed842c",
+    "scenario_name": "Base Model",
+    "success": true,
+    "timings": {
+      "lexer_ms": 1.204,
+      "parser_ms": 0.594,
+      "semantic_ms": 0.109,
+      "ir_ms": 0.19,
+      "execution_ms": 3.612,
+      "total_ms": 5.741
+    },
+    "row_count": 24,
+    "columns": [
+      "month",
+      "mrr",
+      "revenue",
+      "cogs",
+      "gross_profit",
+      "net_profit"
+    ],
+    "error": null,
+    "_id": "08c60bc2-4477-42e0-bfa7-e808b9aff9a1",
+    "created_at": "2026-10-15T06:04:17.130566",
+    "updated_at": "2026-10-15T06:04:17.130566"
+  },
+  {
+    "user_id": "guest_demo_user_id",
+    "model_id": "55908272-6c6c-4555-b8d4-9e5de0ed842c",
+    "scenario_name": "Base Model",
+    "success": true,
+    "timings": {
+      "lexer_ms": 0.631,
+      "parser_ms": 0.67,
+      "semantic_ms": 0.093,
+      "ir_ms": 0.183,
+      "execution_ms": 4.874,
+      "total_ms": 6.487
+    },
+    "row_count": 24,
+    "columns": [
+      "month",
+      "mrr",
+      "revenue",
+      "cogs",
+      "gross_profit",
+      "net_profit"
+    ],
+    "error": null,
+    "_id": "a344e0a1-44b4-47be-8567-4322d2e4e9d8",
+    "created_at": "2026-10-15T06:04:35.075469",
+    "updated_at": "2026-10-15T06:04:35.075469"
+  },
+  {
+    "user_id": "guest_demo_user_id",
+    "model_id": "55908272-6c6c-4555-b8d4-9e5de0ed842c",
+    "scenario_name": "Base Model",
+    "success": true,
+    "timings": {
+      "lexer_ms": 0.522,
+      "parser_ms": 0.548,
+      "semantic_ms": 0.143,
+      "ir_ms": 0.201,
+      "execution_ms": 3.188,
+      "total_ms": 4.94
+    },
+    "row_count": 24,
+    "columns": [
+      "month",
+      "mrr",
+      "revenue",
+      "cogs",
+      "gross_profit",
+      "net_profit"
+    ],
+    "error": null,
+    "_id": "0525666d-d3fd-4821-a4b0-cc42187b1404",
+    "created_at": "2026-10-16T05:00:12.286439",
+    "updated_at": "2026-10-16T05:00:12.286439"
+  },
+  {
+    "user_id": "guest_demo_user_id",
+    "model_id": "55908272-6c6c-4555-b8d4-9e5de0ed842c",
+    "scenario_name": "Base Model",
+    "success": true,
+    "timings": {
+      "lexer_ms": 0.6,
+      "parser_ms": 0.455,
+      "semantic_ms": 0.112,
+      "ir_ms": 0.233,
+      "execution_ms": 4.318,
+      "total_ms": 5.755
+    },
+    "row_count": 24,
+    "columns": [
+      "month",
+      "mrr",
+      "revenue",
+      "cogs",
+      "gross_profit",
+      "net_profit"
+    ],
+    "error": null,
+    "_id": "02363bd6-cb2e-4d8e-92fd-1c4186555618",
+    "created_at": "2026-10-16T05:00:12.345828",
+    "updated_at": "2026-10-16T05:00:12.345828"
+  },
+  {
+    "user_id": "guest_demo_user_id",
+    "model_id": "55908272-6c6c-4555-b8d4-9e5de0ed842c",
+    "scenario_name": "Base Model",
+    "success": true,
+    "timings": {
+      "lexer_ms": 0.428,
+      "parser_ms": 0.33,
+      "semantic_ms": 0.085,
+      "ir_ms": 0.149,
+      "execution_ms": 1.899,
+      "total_ms": 2.912
+    },
+    "row_count": 24,
+    "columns": [
+      "month",
+      "mrr",
+      "revenue",
+      "cogs",
+      "gross_profit",
+      "net_profit"
+    ],
+    "error": null,
+    "_id": "a2c2bd3d-d627-4cb8-aa96-8113c1ea0286",
+    "created_at": "2026-10-16T05:04:36.189641",
+    "updated_at": "2026-10-16T05:04:36.189641"
+  },
+  {
+    "user_id": "guest_demo_user_id",
+    "model_id": "55908272-6c6c-4555-b8d4-9e5de0ed842c",
+    "scenario_name": "Base Model",
+    "success": true,
+    "timings": {
+      "lexer_ms": 0.673,
+      "parser_ms": 0.565,
+      "semantic_ms": 0.102,
+      "ir_ms": 0.159,
+      "execution_ms": 2.071,
+      "total_ms": 3.595
+    },
+    "row_count": 24,
+    "columns": [
+      "month",
+      "mrr",
+      "revenue",
+      "cogs",
+      "gross_profit",
+      "net_profit"
+    ],
+    "error": null,
+    "_id": "4f564c88-1330-4adf-bc9d-46f9e46a8439",
+    "created_at": "2026-10-16T05:04:36.244448",
+    "updated_at": "2026-10-16T05:04:36.244448"
+  },
+  {
+    "user_id": "guest_demo_user_id",
+    "model_id": "28f22178-7cac-4d13-b3cb-7aa237c71b67",
+    "scenario_name": "Base Model",
+    "success": true,
+    "timings": {
+      "lexer_ms": 1.309,
+      "parser_ms": 0.729,
+      "semantic_ms": 0.137,
+      "ir_ms": 0.25,
+      "execution_ms": 2.743,
+      "total_ms": 5.199
+    },
+    "row_count": 18,
+    "columns": [
+      "month",
+      "current_revenue",
+      "total_expenses",
+      "net_burn",
+      "cash_balance",
+      "runway_months_remaining"
+    ],
+    "error": null,
+    "_id": "6396b911-0317-433d-a862-085d54d477fd",
+    "created_at": "2026-10-16T05:11:55.176169",
+    "updated_at": "2026-10-16T05:11:55.176169"
+  },
+  {
+    "user_id": "guest_demo_user_id",
+    "model_id": "28f22178-7cac-4d13-b3cb-7aa237c71b67",
+    "scenario_name": "Base Model",
+    "success": true,
+    "timings": {
+      "lexer_ms": 1.622,
+      "parser_ms": 0.944,
+      "semantic_ms": 0.155,
+      "ir_ms": 0.284,
+      "execution_ms": 3.634,
+      "total_ms": 6.673
+    },
+    "row_count": 18,
+    "columns": [
+      "month",
+      "current_revenue",
+      "total_expenses",
+      "net_burn",
+      "cash_balance",
+      "runway_months_remaining"
+    ],
+    "error": null,
+    "_id": "8e3de9e4-ecd1-4bbf-9d75-69f8948e3952",
+    "created_at": "2026-10-16T05:12:03.868915",
+    "updated_at": "2026-10-16T05:12:03.868915"
+  },
+  {
+    "user_id": "guest_demo_user_id",
+    "model_id": "ecc9dec4-dda2-4659-9a6e-c5cd081a08b0",
+    "scenario_name": "Base Model",
+    "success": true,
+    "timings": {
+      "lexer_ms": 1.531,
+      "parser_ms": 0.97,
+      "semantic_ms": 0.157,
+      "ir_ms": 0.281,
+      "execution_ms": 3.706,
+      "total_ms": 6.678
+    },
+    "row_count": 18,
+    "columns": [
+      "month",
+      "current_revenue",
+      "total_expenses",
+      "net_burn",
+      "cash_balance",
+      "runway_months_remaining"
+    ],
+    "error": null,
+    "_id": "bcc8b337-f107-4c18-b0d9-c35d55c36702",
+    "created_at": "2026-10-16T05:14:55.295252",
+    "updated_at": "2026-10-16T05:14:55.295252"
+  },
+  {
+    "user_id": "guest_demo_user_id",
+    "model_id": "ecc9dec4-dda2-4659-9a6e-c5cd081a08b0",
+    "scenario_name": "Base Model",
+    "success": true,
+    "timings": {
+      "lexer_ms": 4.861,
+      "parser_ms": 1.059,
+      "semantic_ms": 0.332,
+      "ir_ms": 1.222,
+      "execution_ms": 5.132,
+      "total_ms": 12.673
+    },
+    "row_count": 18,
+    "columns": [
+      "month",
+      "current_revenue",
+      "total_expenses",
+      "net_burn",
+      "cash_balance",
+      "runway_months_remaining"
+    ],
+    "error": null,
+    "_id": "a56b7098-a62b-48b2-920f-cc7f7c12c72d",
+    "created_at": "2026-10-16T05:15:00.887088",
+    "updated_at": "2026-10-16T05:15:00.887088"
+  },
+  {
+    "user_id": "guest_demo_user_id",
+    "model_id": "ecc9dec4-dda2-4659-9a6e-c5cd081a08b0",
+    "scenario_name": "Conservative Lean Burn",
+    "success": true,
+    "timings": {
+      "lexer_ms": 1.903,
+      "parser_ms": 1.009,
+      "semantic_ms": 0.178,
+      "ir_ms": 0.32,
+      "execution_ms": 3.282,
+      "total_ms": 6.748
+    },
+    "row_count": 18,
+    "columns": [
+      "month",
+      "current_revenue",
+      "total_expenses",
+      "net_burn",
+      "cash_balance",
+      "runway_months_remaining"
+    ],
+    "error": null,
+    "_id": "8a35dd94-8b0f-452f-9502-76dc0f036c4f",
+    "created_at": "2026-10-16T05:22:03.200397",
+    "updated_at": "2026-10-16T05:22:03.200397"
+  },
+  {
+    "user_id": "guest_demo_user_id",
+    "model_id": "ecc9dec4-dda2-4659-9a6e-c5cd081a08b0",
+    "scenario_name": "Conservative Lean Burn",
+    "success": true,
+    "timings": {
+      "lexer_ms": 1.528,
+      "parser_ms": 0.918,
+      "semantic_ms": 0.131,
+      "ir_ms": 0.248,
+      "execution_ms": 4.904,
+      "total_ms": 7.766
+    },
+    "row_count": 18,
+    "columns": [
+      "month",
+      "current_revenue",
+      "total_expenses",
+      "net_burn",
+      "cash_balance",
+      "runway_months_remaining"
+    ],
+    "error": null,
+    "_id": "0235355a-1860-4580-990f-e8fb7bec02d1",
+    "created_at": "2026-10-16T05:22:07.888646",
+    "updated_at": "2026-10-16T05:22:07.888646"
+  },
+  {
+    "user_id": "guest_demo_user_id",
+    "model_id": "ecc9dec4-dda2-4659-9a6e-c5cd081a08b0",
+    "scenario_name": "Base Model",
+    "success": true,
+    "timings": {
+      "lexer_ms": 1.957,
+      "parser_ms": 2.016,
+      "semantic_ms": 0.431,
+      "ir_ms": 0.292,
+      "execution_ms": 6.632,
+      "total_ms": 11.376
+    },
+    "row_count": 18,
+    "columns": [
+      "month",
+      "current_revenue",
+      "total_expenses",
+      "net_burn",
+      "cash_balance",
+      "runway_months_remaining"
+    ],
+    "error": null,
+    "_id": "aa8c495f-28bb-4132-8dc0-4f600716e6c4",
+    "created_at": "2026-10-16T05:22:12.192297",
+    "updated_at": "2026-10-16T05:22:12.192297"
+  },
+  {
+    "user_id": "guest_demo_user_id",
+    "model_id": "ecc9dec4-dda2-4659-9a6e-c5cd081a08b0",
+    "scenario_name": "Conservative Lean Burn",
+    "success": true,
+    "timings": {
+      "lexer_ms": 1.541,
+      "parser_ms": 0.621,
+      "semantic_ms": 0.102,
+      "ir_ms": 0.432,
+      "execution_ms": 5.601,
+      "total_ms": 8.336
+    },
+    "row_count": 18,
+    "columns": [
+      "month",
+      "current_revenue",
+      "total_expenses",
+      "net_burn",
+      "cash_balance",
+      "runway_months_remaining"
+    ],
+    "error": null,
+    "_id": "41ce7ac6-4703-4027-9324-e1812bbd8aa5",
+    "created_at": "2026-10-16T05:22:19.752234",
+    "updated_at": "2026-10-16T05:22:19.752234"
+  },
+  {
+    "user_id": "guest_demo_user_id",
+    "model_id": "ecc9dec4-dda2-4659-9a6e-c5cd081a08b0",
+    "scenario_name": "Fast Growth Hiring",
+    "success": true,
+    "timings": {
+      "lexer_ms": 2.285,
+      "parser_ms": 0.835,
+      "semantic_ms": 0.079,
+      "ir_ms": 0.188,
+      "execution_ms": 2.731,
+      "total_ms": 6.155
+    },
+    "row_count": 18,
+    "columns": [
+      "month",
+      "current_revenue",
+      "total_expenses",
+      "net_burn",
+      "cash_balance",
+      "runway_months_remaining"
+    ],
+    "error": null,
+    "_id": "f729de4e-96f7-4eac-8e99-059f8771d6d5",
+    "created_at": "2026-10-16T05:22:26.585138",
+    "updated_at": "2026-10-16T05:22:26.585138"
+  },
+  {
+    "user_id": "guest_demo_user_id",
+    "model_id": "ecc9dec4-dda2-4659-9a6e-c5cd081a08b0",
+    "scenario_name": "Base Model",
+    "success": true,
+    "timings": {
+      "lexer_ms": 1.219,
+      "parser_ms": 0.745,
+      "semantic_ms": 0.154,
+      "ir_ms": 0.362,
+      "execution_ms": 7.582,
+      "total_ms": 10.107
+    },
+    "row_count": 18,
+    "columns": [
+      "month",
+      "current_revenue",
+      "total_expenses",
+      "net_burn",
+      "cash_balance",
+      "runway_months_remaining"
+    ],
+    "error": null,
+    "_id": "afd4774c-3793-4916-8551-64293211a8c1",
+    "created_at": "2026-10-16T05:22:29.192080",
+    "updated_at": "2026-10-16T05:22:29.192080"
+  },
+  {
+    "user_id": "guest_demo_user_id",
+    "model_id": "ecc9dec4-dda2-4659-9a6e-c5cd081a08b0",
+    "scenario_name": "Base Model",
+    "success": true,
+    "timings": {
+      "lexer_ms": 1.719,
+      "parser_ms": 0.984,
+      "semantic_ms": 0.162,
+      "ir_ms": 0.315,
+      "execution_ms": 6.402,
+      "total_ms": 9.627
+    },
+    "row_count": 24,
+    "columns": [
+      "month",
+      "current_revenue",
+      "total_expenses",
+      "net_burn",
+      "cash_balance",
+      "runway_months_remaining"
+    ],
+    "error": null,
+    "_id": "967757e8-8427-4157-ac7d-04b68d98936d",
+    "created_at": "2026-10-16T05:31:50.748880",
+    "updated_at": "2026-10-16T05:31:50.748880"
+  },
+  {
+    "user_id": "guest_demo_user_id",
+    "model_id": "55908272-6c6c-4555-b8d4-9e5de0ed842c",
+    "scenario_name": "Base Model",
+    "success": true,
+    "timings": {
+      "lexer_ms": 1.549,
+      "parser_ms": 1.139,
+      "semantic_ms": 0.274,
+      "ir_ms": 0.393,
+      "execution_ms": 5.391,
+      "total_ms": 9.19
+    },
+    "row_count": 24,
+    "columns": [
+      "month",
+      "mrr",
+      "revenue",
+      "cogs",
+      "gross_profit",
+      "net_profit"
+    ],
+    "error": null,
+    "_id": "bbaf9cda-56cc-4e24-a49a-e70f4d46e675",
+    "created_at": "2026-10-16T05:40:07.317169",
+    "updated_at": "2026-10-16T05:40:07.317169"
+  },
+  {
+    "user_id": "guest_demo_user_id",
+    "model_id": "55908272-6c6c-4555-b8d4-9e5de0ed842c",
+    "scenario_name": "Base Model",
+    "success": true,
+    "timings": {
+      "lexer_ms": 0.542,
+      "parser_ms": 0.456,
+      "semantic_ms": 0.095,
+      "ir_ms": 0.179,
+      "execution_ms": 2.317,
+      "total_ms": 3.622
+    },
+    "row_count": 24,
+    "columns": [
+      "month",
+      "mrr",
+      "revenue",
+      "cogs",
+      "gross_profit",
+      "net_profit"
+    ],
+    "error": null,
+    "_id": "3155e146-21a3-4a89-9aae-b0d22b560568",
+    "created_at": "2026-10-16T05:40:07.424051",
+    "updated_at": "2026-10-16T05:40:07.424051"
+  },
+  {
+    "user_id": "guest_demo_user_id",
+    "model_id": "55908272-6c6c-4555-b8d4-9e5de0ed842c",
+    "scenario_name": "Base Model",
+    "success": true,
+    "timings": {
+      "lexer_ms": 1.178,
+      "parser_ms": 0.904,
+      "semantic_ms": 0.178,
+      "ir_ms": 0.33,
+      "execution_ms": 4.742,
+      "total_ms": 7.363
+    },
+    "row_count": 24,
+    "columns": [
+      "month",
+      "mrr",
+      "revenue",
+      "cogs",
+      "gross_profit",
+      "net_profit"
+    ],
+    "error": null,
+    "_id": "e4681d8c-c3fe-4e9f-8238-34ab179adaa0",
+    "created_at": "2026-10-16T05:41:33.094923",
+    "updated_at": "2026-10-16T05:41:33.094923"
+  },
+  {
+    "user_id": "guest_demo_user_id",
+    "model_id": "55908272-6c6c-4555-b8d4-9e5de0ed842c",
+    "scenario_name": "Base Model",
+    "success": true,
+    "timings": {
+      "lexer_ms": 1.753,
+      "parser_ms": 1.249,
+      "semantic_ms": 0.22,
+      "ir_ms": 0.411,
+      "execution_ms": 8.248,
+      "total_ms": 11.931
+    },
+    "row_count": 24,
+    "columns": [
+      "month",
+      "mrr",
+      "revenue",
+      "cogs",
+      "gross_profit",
+      "net_profit"
+    ],
+    "error": null,
+    "_id": "0f0558ad-48d5-4774-9634-ae19ce5c15bd",
+    "created_at": "2026-10-16T05:41:33.150255",
+    "updated_at": "2026-10-16T05:41:33.150255"
+  },
+  {
+    "user_id": "guest_demo_user_id",
+    "model_id": "55908272-6c6c-4555-b8d4-9e5de0ed842c",
+    "scenario_name": "Base Model",
+    "success": true,
+    "timings": {
+      "lexer_ms": 0.488,
+      "parser_ms": 0.431,
+      "semantic_ms": 0.077,
+      "ir_ms": 0.243,
+      "execution_ms": 2.671,
+      "total_ms": 3.947
+    },
+    "row_count": 24,
+    "columns": [
+      "month",
+      "mrr",
+      "revenue",
+      "cogs",
+      "gross_profit",
+      "net_profit"
+    ],
+    "error": null,
+    "_id": "105a2825-8965-407c-aa45-381fc51c316b",
+    "created_at": "2026-10-16T05:42:06.077366",
+    "updated_at": "2026-10-16T05:42:06.077366"
+  },
+  {
+    "user_id": "guest_demo_user_id",
+    "model_id": "55908272-6c6c-4555-b8d4-9e5de0ed842c",
+    "scenario_name": "Base Model",
+    "success": true,
+    "timings": {
+      "lexer_ms": 0.61,
+      "parser_ms": 0.439,
+      "semantic_ms": 0.107,
+      "ir_ms": 0.17,
+      "execution_ms": 1.576,
+      "total_ms": 2.924
+    },
+    "row_count": 24,
+    "columns": [
+      "month",
+      "mrr",
+      "revenue",
+      "cogs",
+      "gross_profit",
+      "net_profit"
+    ],
+    "error": null,
+    "_id": "92f6a1f6-b1f1-45db-8132-433b1e8c1fb4",
+    "created_at": "2026-10-16T05:42:06.102084",
+    "updated_at": "2026-10-16T05:42:06.102084"
+  },
+  {
+    "user_id": "guest_demo_user_id",
+    "model_id": "55908272-6c6c-4555-b8d4-9e5de0ed842c",
+    "scenario_name": "Base Model",
+    "success": true,
+    "timings": {
+      "lexer_ms": 0.555,
+      "parser_ms": 0.657,
+      "semantic_ms": 0.308,
+      "ir_ms": 0.165,
+      "execution_ms": 3.45,
+      "total_ms": 5.19
+    },
+    "row_count": 24,
+    "columns": [
+      "month",
+      "mrr",
+      "revenue",
+      "cogs",
+      "gross_profit",
+      "net_profit"
+    ],
+    "error": null,
+    "_id": "18f1c303-4b5f-4b71-9428-5cc738b04b4b",
+    "created_at": "2026-10-16T05:44:02.557269",
+    "updated_at": "2026-10-16T05:44:02.557269"
+  },
+  {
+    "user_id": "guest_demo_user_id",
+    "model_id": "55908272-6c6c-4555-b8d4-9e5de0ed842c",
+    "scenario_name": "Base Model",
+    "success": true,
+    "timings": {
+      "lexer_ms": 1.294,
+      "parser_ms": 0.936,
+      "semantic_ms": 0.13,
+      "ir_ms": 0.128,
+      "execution_ms": 4.216,
+      "total_ms": 6.752
+    },
+    "row_count": 24,
+    "columns": [
+      "month",
+      "mrr",
+      "revenue",
+      "cogs",
+      "gross_profit",
+      "net_profit"
+    ],
+    "error": null,
+    "_id": "b254c841-2612-4060-abd3-0fe6b22c775e",
+    "created_at": "2026-10-16T05:44:02.614759",
+    "updated_at": "2026-10-16T05:44:02.614759"
+  },
+  {
+    "user_id": "guest_demo_user_id",
+    "model_id": "55908272-6c6c-4555-b8d4-9e5de0ed842c",
+    "scenario_name": "Base Model",
+    "success": true,
+    "timings": {
+      "lexer_ms": 0.679,
+      "parser_ms": 0.336,
+      "semantic_ms": 0.06,
+      "ir_ms": 0.105,
+      "execution_ms": 2.026,
+      "total_ms": 3.229
+    },
+    "row_count": 24,
+    "columns": [
+      "month",
+      "mrr",
+      "revenue",
+      "cogs",
+      "gross_profit",
+      "net_profit"
+    ],
+    "error": null,
+    "_id": "0588e781-f616-4f98-a83e-f420d0f22a23",
+    "created_at": "2026-10-16T05:45:00.313338",
+    "updated_at": "2026-10-16T05:45:00.313338"
+  },
+  {
+    "user_id": "guest_demo_user_id",
+    "model_id": "55908272-6c6c-4555-b8d4-9e5de0ed842c",
+    "scenario_name": "Base Model",
+    "success": true,
+    "timings": {
+      "lexer_ms": 0.383,
+      "parser_ms": 0.253,
+      "semantic_ms": 0.042,
+      "ir_ms": 0.08,
+      "execution_ms": 1.264,
+      "total_ms": 2.036
+    },
+    "row_count": 24,
+    "columns": [
+      "month",
+      "mrr",
+      "revenue",
+      "cogs",
+      "gross_profit",
+      "net_profit"
+    ],
+    "error": null,
+    "_id": "99dde924-6d3f-4e14-abb0-2839e3969239",
+    "created_at": "2026-10-16T05:45:00.331423",
+    "updated_at": "2026-10-16T05:45:00.331423"
+  },
+  {
+    "user_id": "guest_demo_user_id",
+    "model_id": "55908272-6c6c-4555-b8d4-9e5de0ed842c",
+    "scenario_name": "Base Model",
+    "success": true,
+    "timings": {
+      "lexer_ms": 1.382,
+      "parser_ms": 0.85,
+      "semantic_ms": 0.206,
+      "ir_ms": 0.286,
+      "execution_ms": 5.302,
+      "total_ms": 8.44
+    },
+    "row_count": 24,
+    "columns": [
+      "month",
+      "mrr",
+      "revenue",
+      "cogs",
+      "gross_profit",
+      "net_profit"
+    ],
+    "error": null,
+    "_id": "8716be74-c848-4c8e-a268-fb0757a340f6",
+    "created_at": "2026-10-16T06:43:05.774618",
+    "updated_at": "2026-10-16T06:43:05.774618"
+  },
+  {
+    "user_id": "guest_demo_user_id",
+    "model_id": "55908272-6c6c-4555-b8d4-9e5de0ed842c",
+    "scenario_name": "Base Model",
+    "success": true,
+    "timings": {
+      "lexer_ms": 1.4,
+      "parser_ms": 0.776,
+      "semantic_ms": 0.136,
+      "ir_ms": 0.243,
+      "execution_ms": 4.444,
+      "total_ms": 7.039
+    },
+    "row_count": 24,
+    "columns": [
+      "month",
+      "mrr",
+      "revenue",
+      "cogs",
+      "gross_profit",
+      "net_profit"
+    ],
+    "error": null,
+    "_id": "61135bb4-1a65-423a-af65-8eae3359ee59",
+    "created_at": "2026-10-16T06:43:05.878227",
+    "updated_at": "2026-10-16T06:43:05.878227"
+  },
+  {
+    "user_id": "guest_demo_user_id",
+    "model_id": "55908272-6c6c-4555-b8d4-9e5de0ed842c",
+    "scenario_name": "Base Model",
+    "success": true,
+    "timings": {
+      "lexer_ms": 0.934,
+      "parser_ms": 0.426,
+      "semantic_ms": 0.095,
+      "ir_ms": 0.141,
+      "execution_ms": 5.33,
+      "total_ms": 6.949
+    },
+    "row_count": 24,
+    "columns": [
+      "month",
+      "mrr",
+      "revenue",
+      "cogs",
+      "gross_profit",
+      "net_profit"
+    ],
+    "error": null,
+    "_id": "b29ddcfd-495e-4db7-aae9-51bdbd590f15",
+    "created_at": "2026-10-16T06:43:07.501042",
+    "updated_at": "2026-10-16T06:43:07.501042"
+  },
+  {
+    "user_id": "guest_demo_user_id",
+    "model_id": "55908272-6c6c-4555-b8d4-9e5de0ed842c",
+    "scenario_name": "Base Model",
+    "success": true,
+    "timings": {
+      "lexer_ms": 0.677,
+      "parser_ms": 0.545,
+      "semantic_ms": 0.091,
+      "ir_ms": 0.298,
+      "execution_ms": 4.016,
+      "total_ms": 5.662
+    },
+    "row_count": 24,
+    "columns": [
+      "month",
+      "mrr",
+      "revenue",
+      "cogs",
+      "gross_profit",
+      "net_profit"
+    ],
+    "error": null,
+    "_id": "4b12554e-55a0-4560-abb1-ca129fe9ef7d",
+    "created_at": "2026-10-16T06:43:07.554418",
+    "updated_at": "2026-10-16T06:43:07.554418"
+  },
+  {
+    "user_id": "guest_demo_user_id",
+    "model_id": "55908272-6c6c-4555-b8d4-9e5de0ed842c",
+    "scenario_name": "Base Model",
+    "success": true,
+    "timings": {
+      "lexer_ms": 1.0,
+      "parser_ms": 0.941,
+      "semantic_ms": 0.138,
+      "ir_ms": 0.24,
+      "execution_ms": 1.678,
+      "total_ms": 4.032
+    },
+    "row_count": 24,
+    "columns": [
+      "month",
+      "mrr",
+      "revenue",
+      "cogs",
+      "gross_profit",
+      "net_profit"
+    ],
+    "error": null,
+    "_id": "d3104c35-40bc-42ba-9439-45c01d962b20",
+    "created_at": "2026-10-16T06:45:09.370994",
+    "updated_at": "2026-10-16T06:45:09.370994"
+  },
+  {
+    "user_id": "guest_demo_user_id",
+    "model_id": "20c8dff8-77e7-4236-97cb-ee028c87394e",
+    "scenario_name": "Base Model",
+    "success": true,
+    "timings": {
+      "lexer_ms": 0.242,
+      "parser_ms": 0.16,
+      "semantic_ms": 0.038,
+      "ir_ms": 0.06,
+      "execution_ms": 0.152,
+      "total_ms": 0.67
+    },
+    "row_count": 12,
+    "columns": [
+      "month",
+      "balance"
+    ],
+    "error": null,
+    "_id": "0a1f4617-4740-4f34-8b21-f7504f3b6ec5",
+    "created_at": "2026-10-16T06:57:23.633423",
+    "updated_at": "2026-10-16T06:57:23.633423"
+  },
+  {
+    "user_id": "guest_demo_user_id",
+    "model_id": "20c8dff8-77e7-4236-97cb-ee028c87394e",
+    "scenario_name": "Base Model",
+    "success": true,
+    "timings": {
+      "lexer_ms": 3.063,
+      "parser_ms": 1.098,
+      "semantic_ms": 0.685,
+      "ir_ms": 0.25,
+      "execution_ms": 5.338,
+      "total_ms": 10.486
+    },
+    "row_count": 24,
+    "columns": [
+      "month",
+      "monthly_emi",
+      "principal_paid",
+      "interest_fee",
+      "remaining_balance"
+    ],
+    "error": null,
+    "_id": "e808aa0f-a22b-42d1-aee5-86eb4f3e6a5e",
+    "created_at": "2026-10-16T06:57:40.978652",
+    "updated_at": "2026-10-16T06:57:40.978652"
+  },
+  {
+    "user_id": "guest_demo_user_id",
+    "model_id": "7dbf59bc-ab02-469f-8f93-0009a6bf543b",
+    "scenario_name": "Base Model",
+    "success": true,
+    "timings": {
+      "lexer_ms": 0.257,
+      "parser_ms": 0.36,
+      "semantic_ms": 0.088,
+      "ir_ms": 0.137,
+      "execution_ms": 0.423,
+      "total_ms": 1.307
+    },
+    "row_count": 12,
+    "columns": [
+      "month",
+      "balance"
+    ],
+    "error": null,
+    "_id": "dcc6d5ad-4b16-4abd-9ceb-b05c47566955",
+    "created_at": "2026-10-16T06:58:29.220151",
+    "updated_at": "2026-10-16T06:58:29.220151"
+  },
+  {
+    "user_id": "guest_demo_user_id",
+    "model_id": "55908272-6c6c-4555-b8d4-9e5de0ed842c",
+    "scenario_name": "Base Model",
+    "success": true,
+    "timings": {
+      "lexer_ms": 0.84,
+      "parser_ms": 1.162,
+      "semantic_ms": 0.156,
+      "ir_ms": 0.403,
+      "execution_ms": 4.819,
+      "total_ms": 7.43
+    },
+    "row_count": 24,
+    "columns": [
+      "month",
+      "mrr",
+      "revenue",
+      "cogs",
+      "gross_profit",
+      "net_profit"
+    ],
+    "error": null,
+    "_id": "a3fbd2b3-40b6-4ad9-ae70-62fb217b5d33",
+    "created_at": "2026-10-16T06:58:33.358704",
+    "updated_at": "2026-10-16T06:58:33.358704"
+  },
+  {
+    "user_id": "guest_demo_user_id",
+    "model_id": "20c8dff8-77e7-4236-97cb-ee028c87394e",
+    "scenario_name": "Base Model",
+    "success": true,
+    "timings": {
+      "lexer_ms": 0.517,
+      "parser_ms": 0.351,
+      "semantic_ms": 0.081,
+      "ir_ms": 0.152,
+      "execution_ms": 0.364,
+      "total_ms": 1.521
+    },
+    "row_count": 12,
+    "columns": [
+      "month",
+      "balance"
+    ],
+    "error": null,
+    "_id": "b832e95c-07fe-4cdb-b9fc-1c60989b3e93",
+    "created_at": "2026-10-16T06:58:35.386370",
+    "updated_at": "2026-10-16T06:58:35.386370"
+  },
+  {
+    "user_id": "guest_demo_user_id",
+    "model_id": "ecc9dec4-dda2-4659-9a6e-c5cd081a08b0",
+    "scenario_name": "Base Model",
+    "success": true,
+    "timings": {
+      "lexer_ms": 1.617,
+      "parser_ms": 0.803,
+      "semantic_ms": 0.132,
+      "ir_ms": 0.247,
+      "execution_ms": 3.028,
+      "total_ms": 5.891
+    },
+    "row_count": 18,
+    "columns": [
+      "month",
+      "current_revenue",
+      "total_expenses",
+      "net_burn",
+      "cash_balance",
+      "runway_months_remaining"
+    ],
+    "error": null,
+    "_id": "4762c889-9766-44dc-a82d-b02b3a79d745",
+    "created_at": "2026-10-16T06:58:43.769859",
+    "updated_at": "2026-10-16T06:58:43.769859"
+  },
+  {
+    "user_id": "guest_demo_user_id",
+    "model_id": "20c8dff8-77e7-4236-97cb-ee028c87394e",
+    "scenario_name": "Base Model",
+    "success": true,
+    "timings": {
+      "lexer_ms": 0.441,
+      "parser_ms": 0.618,
+      "semantic_ms": 0.134,
+      "ir_ms": 0.343,
+      "execution_ms": 0.485,
+      "total_ms": 2.628
+    },
+    "row_count": 12,
+    "columns": [
+      "month",
+      "balance"
+    ],
+    "error": null,
+    "_id": "c0d44243-b404-486f-9fa4-9325126c2afd",
+    "created_at": "2026-10-16T06:58:44.374554",
+    "updated_at": "2026-10-16T06:58:44.374554"
+  },
+  {
+    "user_id": "guest_demo_user_id",
+    "model_id": "ecc9dec4-dda2-4659-9a6e-c5cd081a08b0",
+    "scenario_name": "Base Model",
+    "success": true,
+    "timings": {
+      "lexer_ms": 1.053,
+      "parser_ms": 0.628,
+      "semantic_ms": 0.107,
+      "ir_ms": 0.227,
+      "execution_ms": 2.742,
+      "total_ms": 4.789
+    },
+    "row_count": 18,
+    "columns": [
+      "month",
+      "current_revenue",
+      "total_expenses",
+      "net_burn",
+      "cash_balance",
+      "runway_months_remaining"
+    ],
+    "error": null,
+    "_id": "c3313ad3-a6af-447a-adf4-a7ea91d6d49b",
+    "created_at": "2026-10-16T06:58:48.139820",
+    "updated_at": "2026-10-16T06:58:48.139820"
+  },
+  {
+    "user_id": "guest_demo_user_id",
+    "model_id": "20c8dff8-77e7-4236-97cb-ee028c87394e",
+    "scenario_name": "Base Model",
+    "success": true,
+    "timings": {
+      "lexer_ms": 0.437,
+      "parser_ms": 0.312,
+      "semantic_ms": 0.073,
+      "ir_ms": 0.129,
+      "execution_ms": 0.456,
+      "total_ms": 1.49
+    },
+    "row_count": 12,
+    "columns": [
+      "month",
+      "balance"
+    ],
+    "error": null,
+    "_id": "dd062e45-7b39-4c3d-b8ff-6e9799911c83",
+    "created_at": "2026-10-16T06:58:48.587439",
+    "updated_at": "2026-10-16T06:58:48.587439"
+  },
+  {
+    "user_id": "guest_demo_user_id",
+    "model_id": "28f22178-7cac-4d13-b3cb-7aa237c71b67",
+    "scenario_name": "Base Model",
+    "success": true,
+    "timings": {
+      "lexer_ms": 1.362,
+      "parser_ms": 0.888,
+      "semantic_ms": 0.177,
+      "ir_ms": 0.28,
+      "execution_ms": 3.697,
+      "total_ms": 6.434
+    },
+    "row_count": 18,
+    "columns": [
+      "month",
+      "current_revenue",
+      "total_expenses",
+      "net_burn",
+      "cash_balance",
+      "runway_months_remaining"
+    ],
+    "error": null,
+    "_id": "9ddd4cf8-69b7-4da6-9d1b-3136e10f2548",
+    "created_at": "2026-10-16T07:01:13.991878",
+    "updated_at": "2026-10-16T07:01:13.991878"
+  },
+  {
+    "user_id": "guest_demo_user_id",
+    "model_id": "ecc9dec4-dda2-4659-9a6e-c5cd081a08b0",
+    "scenario_name": "Base Model",
+    "success": true,
+    "timings": {
+      "lexer_ms": 1.684,
+      "parser_ms": 0.378,
+      "semantic_ms": 0.189,
+      "ir_ms": 0.319,
+      "execution_ms": 4.63,
+      "total_ms": 7.231
+    },
+    "row_count": 18,
+    "columns": [
+      "month",
+      "current_revenue",
+      "total_expenses",
+      "net_burn",
+      "cash_balance",
+      "runway_months_remaining"
+    ],
+    "error": null,
+    "_id": "a62a5395-3591-4c96-9bb7-7478ac6b4ac5",
+    "created_at": "2026-10-16T07:01:34.953512",
+    "updated_at": "2026-10-16T07:01:34.953512"
+  },
+  {
+    "user_id": "guest_demo_user_id",
+    "model_id": "28f22178-7cac-4d13-b3cb-7aa237c71b67",
+    "scenario_name": "Base Model",
+    "success": true,
+    "timings": {
+      "lexer_ms": 1.739,
+      "parser_ms": 0.98,
+      "semantic_ms": 0.167,
+      "ir_ms": 0.408,
+      "execution_ms": 3.863,
+      "total_ms": 7.225
+    },
+    "row_count": 18,
+    "columns": [
+      "month",
+      "current_revenue",
+      "total_expenses",
+      "net_burn",
+      "cash_balance",
+      "runway_months_remaining"
+    ],
+    "error": null,
+    "_id": "ce649106-e7e5-435a-9c1f-c5fc39130f3f",
+    "created_at": "2026-10-16T07:01:36.877675",
+    "updated_at": "2026-10-16T07:01:36.877675"
+  },
+  {
+    "user_id": "guest_demo_user_id",
+    "model_id": "55908272-6c6c-4555-b8d4-9e5de0ed842c",
+    "scenario_name": "Base Model",
+    "success": true,
+    "timings": {
+      "lexer_ms": 1.217,
+      "parser_ms": 0.85,
+      "semantic_ms": 0.144,
+      "ir_ms": 0.271,
+      "execution_ms": 4.227,
+      "total_ms": 6.737
+    },
+    "row_count": 24,
+    "columns": [
+      "month",
+      "mrr",
+      "revenue",
+      "cogs",
+      "gross_profit",
+      "net_profit"
+    ],
+    "error": null,
+    "_id": "a8271082-4527-4882-bc4a-575ed75dcf2c",
+    "created_at": "2026-10-16T07:01:43.294482",
+    "updated_at": "2026-10-16T07:01:43.294482"
+  },
+  {
+    "user_id": "guest_demo_user_id",
+    "model_id": "ecc9dec4-dda2-4659-9a6e-c5cd081a08b0",
+    "scenario_name": "Base Model",
+    "success": true,
+    "timings": {
+      "lexer_ms": 2.081,
+      "parser_ms": 0.894,
+      "semantic_ms": 0.154,
+      "ir_ms": 0.279,
+      "execution_ms": 6.284,
+      "total_ms": 9.722
+    },
+    "row_count": 18,
+    "columns": [
+      "month",
+      "current_revenue",
+      "total_expenses",
+      "net_burn",
+      "cash_balance",
+      "runway_months_remaining"
+    ],
+    "error": null,
+    "_id": "3d72847e-67f7-4e39-afd1-faf5a583c8dd",
+    "created_at": "2026-10-16T07:01:43.999567",
+    "updated_at": "2026-10-16T07:01:43.999567"
+  },
+  {
+    "user_id": "guest_demo_user_id",
+    "model_id": "28f22178-7cac-4d13-b3cb-7aa237c71b67",
+    "scenario_name": "Base Model",
+    "success": true,
+    "timings": {
+      "lexer_ms": 2.303,
+      "parser_ms": 0.751,
+      "semantic_ms": 0.103,
+      "ir_ms": 0.178,
+      "execution_ms": 3.704,
+      "total_ms": 7.077
+    },
+    "row_count": 18,
+    "columns": [
+      "month",
+      "current_revenue",
+      "total_expenses",
+      "net_burn",
+      "cash_balance",
+      "runway_months_remaining"
+    ],
+    "error": null,
+    "_id": "456eae7e-73f9-472c-a55d-95774a52c57b",
+    "created_at": "2026-10-16T07:01:45.567151",
+    "updated_at": "2026-10-16T07:01:45.567151"
+  },
+  {
+    "user_id": "guest_demo_user_id",
+    "model_id": "ecc9dec4-dda2-4659-9a6e-c5cd081a08b0",
+    "scenario_name": "Base Model",
+    "success": true,
+    "timings": {
+      "lexer_ms": 1.197,
+      "parser_ms": 0.615,
+      "semantic_ms": 0.124,
+      "ir_ms": 0.365,
+      "execution_ms": 3.789,
+      "total_ms": 6.138
+    },
+    "row_count": 18,
+    "columns": [
+      "month",
+      "current_revenue",
+      "total_expenses",
+      "net_burn",
+      "cash_balance",
+      "runway_months_remaining"
+    ],
+    "error": null,
+    "_id": "92fe1a07-b9ee-40e9-af7f-d70d04be0460",
+    "created_at": "2026-10-16T07:01:48.461083",
+    "updated_at": "2026-10-16T07:01:48.461083"
+  },
+  {
+    "user_id": "guest_demo_user_id",
+    "model_id": "28f22178-7cac-4d13-b3cb-7aa237c71b67",
+    "scenario_name": "Base Model",
+    "success": true,
+    "timings": {
+      "lexer_ms": 1.647,
+      "parser_ms": 0.953,
+      "semantic_ms": 0.16,
+      "ir_ms": 0.442,
+      "execution_ms": 3.616,
+      "total_ms": 6.864
+    },
+    "row_count": 18,
+    "columns": [
+      "month",
+      "current_revenue",
+      "total_expenses",
+      "net_burn",
+      "cash_balance",
+      "runway_months_remaining"
+    ],
+    "error": null,
+    "_id": "e0a4f1a3-00e6-4c1b-a27c-a15fe43e85f7",
+    "created_at": "2026-10-16T07:01:48.916817",
+    "updated_at": "2026-10-16T07:01:48.916817"
+  },
+  {
+    "user_id": "guest_demo_user_id",
+    "model_id": "20c8dff8-77e7-4236-97cb-ee028c87394e",
+    "scenario_name": "Base Model",
+    "success": true,
+    "timings": {
+      "lexer_ms": 0.316,
+      "parser_ms": 0.267,
+      "semantic_ms": 0.064,
+      "ir_ms": 0.108,
+      "execution_ms": 0.389,
+      "total_ms": 1.172
+    },
+    "row_count": 12,
+    "columns": [
+      "month",
+      "balance"
+    ],
+    "error": null,
+    "_id": "9aa5868f-4c71-4441-bb05-4496ad234235",
+    "created_at": "2026-10-16T07:01:52.149660",
+    "updated_at": "2026-10-16T07:01:52.149660"
+  },
+  {
+    "user_id": "guest_demo_user_id",
+    "model_id": "20c8dff8-77e7-4236-97cb-ee028c87394e",
+    "scenario_name": "Base Model",
+    "success": true,
+    "timings": {
+      "lexer_ms": 1.674,
+      "parser_ms": 0.992,
+      "semantic_ms": 0.195,
+      "ir_ms": 0.651,
+      "execution_ms": 6.909,
+      "total_ms": 10.476
+    },
+    "row_count": 24,
+    "columns": [
+      "month",
+      "monthly_emi",
+      "principal_paid",
+      "interest_fee",
+      "remaining_balance"
+    ],
+    "error": null,
+    "_id": "b56781ee-0826-4e4e-9121-a1f81110094f",
+    "created_at": "2026-10-16T07:02:24.783827",
+    "updated_at": "2026-10-16T07:02:24.783827"
+  },
+  {
+    "user_id": "guest_demo_user_id",
+    "model_id": "55908272-6c6c-4555-b8d4-9e5de0ed842c",
+    "scenario_name": "Base Model",
+    "success": true,
+    "timings": {
+      "lexer_ms": 0.631,
+      "parser_ms": 0.447,
+      "semantic_ms": 0.083,
+      "ir_ms": 0.144,
+      "execution_ms": 2.244,
+      "total_ms": 3.57
+    },
+    "row_count": 24,
+    "columns": [
+      "month",
+      "mrr",
+      "revenue",
+      "cogs",
+      "gross_profit",
+      "net_profit"
+    ],
+    "error": null,
+    "_id": "82466d68-1917-4cd9-bc6a-0a10e9cac48c",
+    "created_at": "2026-10-16T07:03:26.811016",
+    "updated_at": "2026-10-16T07:03:26.811016"
+  },
+  {
+    "user_id": "guest_demo_user_id",
+    "model_id": "55908272-6c6c-4555-b8d4-9e5de0ed842c",
+    "scenario_name": "Base Model",
+    "success": true,
+    "timings": {
+      "lexer_ms": 0.682,
+      "parser_ms": 0.376,
+      "semantic_ms": 0.079,
+      "ir_ms": 0.129,
+      "execution_ms": 1.855,
+      "total_ms": 3.14
+    },
+    "row_count": 24,
+    "columns": [
+      "month",
+      "mrr",
+      "revenue",
+      "cogs",
+      "gross_profit",
+      "net_profit"
+    ],
+    "error": null,
+    "_id": "e95a0746-0179-47ae-8797-47b414d01cad",
+    "created_at": "2026-10-16T07:03:45.843879",
+    "updated_at": "2026-10-16T07:03:45.843879"
+  },
+  {
+    "user_id": "guest_demo_user_id",
+    "model_id": "55908272-6c6c-4555-b8d4-9e5de0ed842c",
+    "scenario_name": "Base Model",
+    "success": true,
+    "timings": {
+      "lexer_ms": 0.752,
+      "parser_ms": 0.484,
+      "semantic_ms": 0.112,
+      "ir_ms": 0.203,
+      "execution_ms": 2.114,
+      "total_ms": 3.688
+    },
+    "row_count": 24,
+    "columns": [
+      "month",
+      "mrr",
+      "revenue",
+      "cogs",
+      "gross_profit",
+      "net_profit"
+    ],
+    "error": null,
+    "_id": "d252a67e-85c4-4cf5-bda0-427258a1cadd",
+    "created_at": "2026-10-16T07:03:45.887416",
+    "updated_at": "2026-10-16T07:03:45.887416"
+  },
+  {
+    "user_id": "guest_demo_user_id",
+    "model_id": "55908272-6c6c-4555-b8d4-9e5de0ed842c",
+    "scenario_name": "Base Model",
+    "success": true,
+    "timings": {
+      "lexer_ms": 1.247,
+      "parser_ms": 0.995,
+      "semantic_ms": 0.446,
+      "ir_ms": 0.374,
+      "execution_ms": 5.4,
+      "total_ms": 8.527
+    },
+    "row_count": 24,
+    "columns": [
+      "month",
+      "mrr",
+      "revenue",
+      "cogs",
+      "gross_profit",
+      "net_profit"
+    ],
+    "error": null,
+    "_id": "f134959d-fe5a-4d4c-8cf9-84669f26a758",
+    "created_at": "2026-10-16T07:04:05.843466",
+    "updated_at": "2026-10-16T07:04:05.843466"
+  },
+  {
+    "user_id": "guest_demo_user_id",
+    "model_id": "55908272-6c6c-4555-b8d4-9e5de0ed842c",
+    "scenario_name": "Base Model",
+    "success": true,
+    "timings": {
+      "lexer_ms": 0.707,
+      "parser_ms": 0.64,
+      "semantic_ms": 0.106,
+      "ir_ms": 0.194,
+      "execution_ms": 3.193,
+      "total_ms": 4.876
+    },
+    "row_count": 24,
+    "columns": [
+      "month",
+      "mrr",
+      "revenue",
+      "cogs",
+      "gross_profit",
+      "net_profit"
+    ],
+    "error": null,
+    "_id": "606e2f88-4e90-41ef-9aad-e417b07d0097",
+    "created_at": "2026-10-16T07:04:24.833225",
+    "updated_at": "2026-10-16T07:04:24.833225"
+  },
+  {
+    "user_id": "guest_demo_user_id",
+    "model_id": "55908272-6c6c-4555-b8d4-9e5de0ed842c",
+    "scenario_name": "Base Model",
+    "success": true,
+    "timings": {
+      "lexer_ms": 1.011,
+      "parser_ms": 0.75,
+      "semantic_ms": 0.135,
+      "ir_ms": 0.242,
+      "execution_ms": 4.1,
+      "total_ms": 6.277
+    },
+    "row_count": 24,
+    "columns": [
+      "month",
+      "mrr",
+      "revenue",
+      "cogs",
+      "gross_profit",
+      "net_profit"
+    ],
+    "error": null,
+    "_id": "4af23920-e09e-466e-ba2f-de624dc8e2fa",
+    "created_at": "2026-10-16T07:04:38.816059",
+    "updated_at": "2026-10-16T07:04:38.816059"
+  },
+  {
+    "user_id": "guest_demo_user_id",
+    "model_id": "55908272-6c6c-4555-b8d4-9e5de0ed842c",
+    "scenario_name": "Base Model",
+    "success": true,
+    "timings": {
+      "lexer_ms": 0.755,
+      "parser_ms": 0.488,
+      "semantic_ms": 0.082,
+      "ir_ms": 0.148,
+      "execution_ms": 2.431,
+      "total_ms": 3.955
+    },
+    "row_count": 24,
+    "columns": [
+      "month",
+      "mrr",
+      "revenue",
+      "cogs",
+      "gross_profit",
+      "net_profit"
+    ],
+    "error": null,
+    "_id": "224faa85-2898-49ca-8609-37bb7e9fe3ab",
+    "created_at": "2026-10-16T07:04:56.791693",
+    "updated_at": "2026-10-16T07:04:56.791693"
+  },
+  {
+    "user_id": "guest_demo_user_id",
+    "model_id": "20c8dff8-77e7-4236-97cb-ee028c87394e",
+    "scenario_name": "Base Model",
+    "success": true,
+    "timings": {
+      "lexer_ms": 2.389,
+      "parser_ms": 1.312,
+      "semantic_ms": 0.178,
+      "ir_ms": 0.513,
+      "execution_ms": 4.018,
+      "total_ms": 8.479
+    },
+    "row_count": 24,
+    "columns": [
+      "month",
+      "monthly_emi",
+      "principal_paid",
+      "interest_fee",
+      "remaining_balance"
+    ],
+    "error": null,
+    "_id": "f698905b-3d31-435d-94e2-52f88d572986",
+    "created_at": "2026-10-16T07:05:38.991396",
+    "updated_at": "2026-10-16T07:05:38.991396"
+  }
+]
