@@ -1,0 +1,42 @@
+[
+  {
+    "project_id": "bf4faa9b-ed03-4133-9470-9f174e0dc23e",
+    "name": "SaaS MRR Growth & Churn Projection",
+    "source_code": "// FinRule: SaaS Recurring Revenue & Churn Projection\nmodel \"SaaS Growth Engine\" {\n  starting_mrr = 75000\n  monthly_growth = 0.055\n  churn = 0.02\n  cogs_rate = 0.22\n  opex = 38000\n\n  for month in 1 to 24 {\n    mrr = starting_mrr * (1 + monthly_growth - churn) ^ month\n    revenue = mrr\n    cogs = revenue * cogs_rate\n    gross_profit = revenue - cogs\n    net_profit = gross_profit - opex\n\n    output month, mrr, revenue, cogs, gross_profit, net_profit\n  }\n}\n\nscenario \"Aggressive Growth\" {\n  monthly_growth = 0.09\n  churn = 0.015\n  opex = 45000\n}\n\nscenario \"Recession Stress Test\" {\n  monthly_growth = 0.02\n  churn = 0.045\n  opex = 32000\n}\n",
+    "description": "Multi-period projection of recurring revenue, subscriber churn, gross margins, and net operating profit over 24 months.",
+    "user_id": "guest_demo_user_id",
+    "_id": "55908272-6c6c-4555-b8d4-9e5de0ed842c",
+    "created_at": "2026-10-15T06:03:53.423700",
+    "updated_at": "2026-10-16T07:05:39.065911"
+  },
+  {
+    "project_id": "bf4faa9b-ed03-4133-9470-9f174e0dc23e",
+    "name": "Startup Cash Runway & Burn Rate Forecast",
+    "source_code": "// FinRule: Startup Runway & Cash Burn Forecast\nmodel \"Seed Runway Planner\" {\n  starting_cash = 1200000\n  monthly_burn_base = 45000\n  hiring_expansion_rate = 3500\n  revenue_starting = 8000\n  revenue_mom_growth = 0.08\n\n  cash_balance = starting_cash\n  current_revenue = revenue_starting\n\n  for month in 1 to 18 {\n    current_revenue = current_revenue * (1 + revenue_mom_growth)\n    total_expenses = monthly_burn_base + (hiring_expansion_rate * month)\n    net_burn = total_expenses - current_revenue\n    cash_balance = cash_balance - net_burn\n    runway_months_remaining = cash_balance / net_burn\n\n    output month, current_revenue, total_expenses, net_burn, cash_balance, runway_months_remaining\n  }\n}\n\nscenario \"Conservative Lean Burn\" {\n  hiring_expansion_rate = 1500\n  monthly_burn_base = 38000\n}\n\nscenario \"Fast Growth Hiring\" {\n  hiring_expansion_rate = 6000\n  revenue_mom_growth = 0.12\n}\n",
+    "description": "Simulates monthly cash runway, hiring expenses, server costs, and tracks zero-cash date over 18 months.",
+    "user_id": "guest_demo_user_id",
+    "_id": "28f22178-7cac-4d13-b3cb-7aa237c71b67",
+    "created_at": "2026-10-16T05:11:55.110827",
+    "updated_at": "2026-10-16T05:11:55.110827"
+  },
+  {
+    "project_id": "bf4faa9b-ed03-4133-9470-9f174e0dc23e",
+    "name": "Startup Cash Runway & Burn Rate Forecast",
+    "source_code": "// FinRule: Startup Runway & Cash Burn Forecast\nmodel \"Seed Runway Planner\" {\n  starting_cash = 1200000\n  monthly_burn_base = 45000\n  hiring_expansion_rate = 3500\n  revenue_starting = 8000\n  revenue_mom_growth = 0.08\n\n  cash_balance = starting_cash\n  current_revenue = revenue_starting\n\n  for month in 1 to 18 {\n    current_revenue = current_revenue * (1 + revenue_mom_growth)\n    total_expenses = monthly_burn_base + (hiring_expansion_rate * month)\n    net_burn = total_expenses - current_revenue\n    cash_balance = cash_balance - net_burn\n    runway_months_remaining = cash_balance / net_burn\n\n    output month, current_revenue, total_expenses, net_burn, cash_balance, runway_months_remaining\n  }\n}\n\nscenario \"Conservative Lean Burn\" {\n  hiring_expansion_rate = 1500\n  monthly_burn_base = 38000\n}\n\nscenario \"Fast Growth Hiring\" {\n  hiring_expansion_rate = 6000\n  revenue_mom_growth = 0.12\n}\n",
+    "description": "Simulates monthly cash runway, hiring expenses, server costs, and tracks zero-cash date over 18 months.",
+    "user_id": "guest_demo_user_id",
+    "_id": "ecc9dec4-dda2-4659-9a6e-c5cd081a08b0",
+    "created_at": "2026-10-16T05:14:55.253996",
+    "updated_at": "2026-10-16T05:14:55.253996"
+  },
+  {
+    "project_id": "bf4faa9b-ed03-4133-9470-9f174e0dc23e",
+    "name": "Loan Eligibility",
+    "source_code": "// FinRule: Retail Bank Home Loan Underwriting & Stress Test\nmodel \"Home Loan DTI Stress Test\" {\n  loan_amount = 4000000\n  annual_rate = 0.085\n  tenure_years = 20\n  total_months = tenure_years * 12\n  monthly_rate = annual_rate / 12\n\n  customer_monthly_income = 120000\n  max_allowed_dti = 0.45\n\n  // Calculate fixed monthly EMI using built-in PMT function\n  monthly_emi = PMT(monthly_rate, total_months, loan_amount)\n  dti_ratio = monthly_emi / customer_monthly_income\n\n  remaining_balance = loan_amount\n\n  for month in 1 to 24 {\n    interest_fee = remaining_balance * monthly_rate\n    principal_paid = monthly_emi - interest_fee\n    remaining_balance = remaining_balance - principal_paid\n\n    output month, monthly_emi, principal_paid, interest_fee, remaining_balance\n  }\n}\n\n// Scenario 1: RBI Rate Hike (Stress Test)\nscenario \"RBI Rate Hike (+2%)\" {\n  annual_rate = 0.105\n}\n\n// Scenario 2: Customer Gets 15% Salary Increment\nscenario \"Salary Promotion (+15%)\" {\n  customer_monthly_income = 138000\n}\n",
+    "description": "",
+    "user_id": "guest_demo_user_id",
+    "_id": "20c8dff8-77e7-4236-97cb-ee028c87394e",
+    "created_at": "2026-10-16T06:57:23.592865",
+    "updated_at": "2026-10-16T06:58:46.911473"
+  }
+]
