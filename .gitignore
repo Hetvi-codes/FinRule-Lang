@@ -1,0 +1,26 @@
+@"
+# Virtual Environment
+finny/
+venv/
+env/
+
+# Python cache & test files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Environment variables & secrets
+backend/.env
+*.env
+!backend/.env.example
+
+# Local SQLite databases
+backend/data/*.db
+*.sqlite3
+
+# Node & Frontend build output
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+.DS_Store
+"@ | Out-File -FilePath .gitignore -Encoding utf8
